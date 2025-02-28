@@ -1,0 +1,390 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Zirius</title>
+    <!--Bootstrap-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <!--Google Fonts-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Comic+Neue:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&family=Poppins:ital,wght@0,400;1,200&family=Satisfy&display=swap"
+        rel="stylesheet">
+    <!--Custom Styles-->
+    <link rel="stylesheet" href="css/styles.css">
+    <!--Box Icons-->
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <!--Animate CSS-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+</head>
+
+<body>
+    <!--Top Bar-->
+    <section id="topbar" class="d-flex align-items-center fixed-top topbar-transparent">
+        <div
+            class="container-fluid container-xl d-flex align-items-center justify-content-center justify-content-lg-start">
+            <i class='bx bx-mobile-alt d-flex align-items-center'><span>+52 695 458 7852</span></i>
+            <i class='bx bx-time-five ms-4 d-none d-lg-flex align-items-center'><span>Lun-Sab: 10:00 AM - 11:00
+                    PM</span></i>
+        </div>
+    </section>
+    <!--Header-->
+    <header id="header" class="fixed-top d-flex align-items-center header-transparent">
+        <div
+            class="container-fluid container-xl d-flex align-items-center justify-content-center justify-content-between">
+            <div class="logo me-auto">
+                <h1><a href="index.html">Zirius</a></h1>
+            </div>
+            <nav id="navbar" class="navbar order-last order-lg-0">
+                <ul>
+                    <li><a class="nav-link scrollto active" href="#hero">Inicio</a></li>
+                    <li><a class="nav-link scrollto" href="#about">Nosotros</a></li>
+                    <li><a class="nav-link scrollto" href="#menu">Menu</a></li>
+                    <li><a class="nav-link scrollto" href="#specials">Especiales</a></li>
+                    <li><a class="nav-link scrollto" href="#events">Eventos</a></li>
+                    <li><a class="nav-link scrollto" href="#chefs">Chefs</a></li>
+                    <li><a class="nav-link scrollto" href="#gallery">Galeria</a></li>
+                    <li><a class="nav-link scrollto" href="#contact">Contacto</a></li>
+                </ul>
+                <i class='bx bx-menu mobile-nav-toggle'></i>
+            </nav>
+            <a href="#book-table" class="book-a-table-btn scrollto">Reservar</a>
+        </div>
+    </header>
+    <!--Hero-->
+    <section id="hero">
+        <div class="hero-container">
+            <div id="heroCarousel" data-bs-interval="5000" class="carousel slide carousel-fade">
+                <ol class="carousel-indicators">
+                    <li data-bs-target="#heroCarousel" data-bs-slide-to="0" class="active"></li>
+                    <li data-bs-target="#heroCarousel" data-bs-slide-to="1"></li>
+                    <li data-bs-target="#heroCarousel" data-bs-slide-to="2"></li>
+                </ol>
+                <div class="carousel-inner">
+                    <!--Slide 1-->
+                    <div class="carousel-item active" style="background-image: url(img/slide/slide-1.jpg);">
+                        <div class="carousel-container">
+                            <div class="carousel-content">
+                                <h2 class="animate__animated animate animate__fadeInDown"><span>Zirius</span>
+                                    Restaurant</h2>
+                                <p class="animate__animated animate animate__fadeInUp">Lorem ipsum dolor sit amet
+                                    consectetur adipisicing elit. Doloribus quod laborum mollitia deleniti tenetur non
+                                    excepturi ullam recusandae corrupti obcaecati nulla, animi eligendi, voluptate,
+                                    cumque voluptatibus quaerat officia sequi. Amet incidunt deleniti quod? Nobis rerum
+                                    incidunt saepe maxime obcaecati deserunt facilis nihil eum maiores voluptate.</p>
+                                <div>
+                                    <a href="#menu"
+                                        class="btn-menu animate__animated animate animate__fadeInUp scrollto">Menu</a>
+                                    <a href="#book-table"
+                                        class="btn-book animate__animated animate animate__fadeInUp scrollto">Reservar</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!--Slide 2-->
+                    <div class="carousel-item" style="background-image: url(img/slide/slide-2.jpg);">
+                        <div class="carousel-container">
+                            <div class="carousel-content">
+                                <h2 class="animate__animated animate animate__fadeInDown"><span>FoodStop</span>
+                                    Restaurant</h2>
+                                <p class="animate__animated animate animate__fadeInUp">Lorem ipsum dolor sit amet
+                                    consectetur adipisicing elit. Doloribus quod laborum mollitia deleniti tenetur non
+                                    excepturi ullam recusandae corrupti obcaecati nulla, animi eligendi, voluptate,
+                                    cumque voluptatibus quaerat officia sequi. Amet incidunt deleniti quod? Nobis rerum
+                                    incidunt saepe maxime obcaecati deserunt facilis nihil eum maiores voluptate.</p>
+                                <div>
+                                    <a href="#menu"
+                                        class="btn-menu animate__animated animate animate__fadeInUp scrollto">Menu</a>
+                                    <a href="#book-table"
+                                        class="btn-book animate__animated animate animate__fadeInUp scrollto">Reservar</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!--Slide 3-->
+                    <div class="carousel-item" style="background-image: url(img/slide/slide-3.jpg);">
+                        <div class="carousel-container">
+                            <div class="carousel-content">
+                                <h2 class="animate__animated animate animate__fadeInDown"><span>FoodStop</span>
+                                    Restaurant</h2>
+                                <p class="animate__animated animate animate__fadeInUp">Lorem ipsum dolor sit amet
+                                    consectetur adipisicing elit. Doloribus quod laborum mollitia deleniti tenetur non
+                                    excepturi ullam recusandae corrupti obcaecati nulla, animi eligendi, voluptate,
+                                    cumque voluptatibus quaerat officia sequi. Amet incidunt deleniti quod? Nobis rerum
+                                    incidunt saepe maxime obcaecati deserunt facilis nihil eum maiores voluptate.</p>
+                                <div>
+                                    <a href="#menu"
+                                        class="btn-menu animate__animated animate animate__fadeInUp scrollto">Menu</a>
+                                    <a href="#book-table"
+                                        class="btn-book animate__animated animate animate__fadeInUp scrollto">Reservar</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#heroCarousel" data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon bx bx-chevron-left" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#heroCarousel" data-bs-slide="next">
+                    <span class="carousel-control-next-icon bx bx-chevron-right" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                </button>
+            </div>
+        </div>
+    </section>
+    <!--Nosotros-->
+    <section id="about" class="about">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-lg-5 align-items-strech video-box" style="background-image: url(img/about.jpg);">
+                    <a href="https://youtu.be/7TcCIcE1hr8?si=5Nv2ZlOwUBz5XQsb" class="venobox play-btn mb-4" data-vbtype="video" data-autoplay="true"></a>
+                </div>
+                <div class="col-lg-7 d-flex flex-column justify-content-center align-items-strech">
+                    <div class="content">
+                        <h3>Lorem ipsum dolor sit <strong>Lorem ipsum dolor sit amet</strong></h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur fugiat quae facere blanditiis dolorem mollitia. Dicta praesentium odio quas fugiat quod aliquid voluptatem laborum provident?</p>
+                        <p class="fst-italic">
+                            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Similique repellat perspiciatis dolorum esse officia deserunt nesciunt? In sint sequi rem animi accusamus numquam repudiandae temporibus?
+                        </p>
+                        <ul>
+                            <li><i class="bx bx-check-double"></i>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eius, veniam?</li>
+                            <li><i class="bx bx-check-double"></i>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eius, veniam?</li>
+                            <li><i class="bx bx-check-double"></i>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eius, veniam?</li>
+                        </ul>
+                        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sed recusandae neque eum alias deserunt illo rerum fugiat adipisci voluptatem impedit nostrum numquam, obcaecati, aperiam consequuntur in? Cum saepe ut facere.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--Why Us?-->
+    <section id="why us" class="why-us">
+        <div class="container">
+            <div class="section-title">
+                <h2>¿por que <span>Elegirnos?</span></h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed nam, ipsam odio aut amet nihil!</p>
+            </div>
+            <div class="row">
+                <div class="col-lg-4">
+                    <div class="box">
+                        <span>01</span>
+                        <h4>Lorem, ipsum</h4>
+                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Qui, cumque?</p>
+                    </div>
+                </div>
+                <div class="col-lg-4 mt-4 mt-lg-0">
+                    <div class="box">
+                        <span>02</span>
+                        <h4>Lorem, ipsum</h4>
+                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Qui, cumque?</p>
+                    </div>
+                </div>
+                <div class="col-lg-4 mt-4 mt-lg-0">
+                    <div class="box">
+                        <span>03</span>
+                        <h4>Lorem, ipsum</h4>
+                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Qui, cumque?</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--Menu-->
+    <section id="menu" class="menu">
+        <div class="container">
+            <div class="section-title">
+                <h2>Revisa nuestro <span>Menu</span></h2>
+            </div>
+            <div class="row">
+                <div class="col-lg-12 d-flex justify-content-center">
+                    <ul id="menu-filters">
+                        <li data-filter="*" class="filter-active">Todo</li>
+                        <li data-filter=".filter-starters">Entradas</li>
+                        <li data-filter=".filter-salads">Ensaladas</li>
+                        <li data-filter=".filter-specialty">Especialidades</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="row menu-container">
+                <div class="col-lg-6 menu-item filter-starters">
+                    <div class="menu-content">
+                        <a href="#">Crema de camaron</a><span>$120</span>
+                    </div>
+                    <div class="menu-ingredients">
+                        Crema de camaron con un toque de perejil
+                    </div>
+                </div>
+                <div class="col-lg-6 menu-item filter-specialty">
+                    <div class="menu-content">
+                        <a href="#">Medallon de atun</a><span>$180</span>
+                    </div>
+                    <div class="menu-ingredients">
+                        Medallon de atun con salsa de soya
+                    </div>
+                </div>
+            
+                <div class="col-lg-6 menu-item filter-starters">
+                    <div class="menu-content">
+                        <a href="#">Fondue 3 quesos</a><span>$120</span>
+                    </div>
+                    <div class="menu-ingredients">
+                        Fondue de 3 quesos con pan
+                    </div>
+                </div>
+                <div class="col-lg-6 menu-item filter-salads">
+                    <div class="menu-content">
+                        <a href="#">Ensalada Cesar</a><span>$140</span>
+                    </div>
+                    <div class="menu-ingredients">
+                        Ensalada Cesar con pollo
+                    </div>
+                </div>
+                <div class="col-lg-6 menu-item filter-specialty">
+                    <div class="menu-content">
+                        <a href="#">Filete al vino tinto</a><span>$340</span>
+                    </div>
+                    <div class="menu-ingredients">
+                        Filete al vino tinto con papas
+                    </div>
+                </div>
+                <div class="col-lg-6 menu-item filter-starters">
+                    <div class="menu-content">
+                        <a href="#">Strikes de Mozarella</a><span>$280</span>
+                    </div>
+                    <div class="menu-ingredients">
+                        Strikes de Mosarella con salsa de tomate
+                    </div>
+                </div>
+                <div class="col-lg-6 menu-item filter-salads">
+                    <div class="menu-content">
+                        <a href="#">Ensalada Griega</a><span>$150</span>
+                    </div>
+                    <div class="menu-ingredients">
+                        Ensalada Griega con cafe
+                    </div>
+                </div>
+                <div class="col-lg-6 menu-item filter-salads">
+                    <div class="menu-content">
+                        <a href="#">Ensalada Thai</a><span>$580</span>
+                    </div>
+                    <div class="menu-ingredients">
+                        Ensalada Thai con White Russian
+                    </div>
+                </div>
+                <div class="col-lg-6 menu-item filter-starters">
+                    <div class="menu-content">
+                        <a href="#">Camarones Imperiales</a><span>$380</span>
+                    </div>
+                    <div class="menu-ingredients">
+                        Camarones Imperiales con vino tinto
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--Specials-->
+    <section id="specials" class="specials">
+        <div class="container">
+            <div class="section-title">
+                <h2>Nuestras <span>Especialidades</span></h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur, corporis nihil soluta similique distinctio vel.</p>
+            </div>
+            <div class="row">
+                <div class="col-lg-3">
+                    <ul class="nav nav-tabs flex-column">
+                        <li class="nav-item">
+                            <a href="#tab-1" class="nav-link active show" data-bs-toggle="tab">Medallon de Atun</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#tab-2" class="nav-link" data-bs-toggle="tab">Ensalada Cesar</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#tab-3" class="nav-link" data-bs-toggle="tab">Fondue 3 quesos</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#tab-4" class="nav-link" data-bs-toggle="tab">Strikes de Mozarella</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#tab-5" class="nav-link" data-bs-toggle="tab">Camarones Imperiales</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="col-lg-9 mt-4 mt-lg-0">
+                    <div class="tab-content">
+                        <div class="tab-pane active-show" id="tab-1">
+                            <div class="row">
+                                <div class="col-lg-8 details order-2 order-lg-1">
+                                    <h3>Medallon de Atun</h3>
+                                    <p class="fst-italic">Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae, maxime earum voluptatem quidem velit accusamus.</p>
+                                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ipsum tenetur nobis corporis quas numquam officia aliquid error laboriosam magnam assumenda.</p>
+                                </div>
+                                <div class="col-lg-4 text-center order-lg-2">
+                                    <img src="img/specials-1.jpg" alt="" class="img-fluid">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="tab-pane" id="tab-2">
+                            <div class="row">
+                                <div class="col-lg-8 details order-2 order-lg-1">
+                                    <h3>Ensalada Cesar</h3>
+                                    <p class="fst-italic">Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae, maxime earum voluptatem quidem velit accusamus.</p>
+                                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ipsum tenetur nobis corporis quas numquam officia aliquid error laboriosam magnam assumenda.</p>
+                                </div>
+                                <div class="col-lg-4 text-center order-lg-2">
+                                    <img src="img/specials-2.jpg" alt="" class="img-fluid">
+                                </div>
+                            </div>
+                        </div>
+                    <div class="tab-pane" id="tab-3">
+                        <div class="row">
+                            <div class="col-lg-8 details order-2 order-lg-1">
+                                <h3>Fondue 3 quesos</h3>
+                                <p class="fst-italic">Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae, maxime earum voluptatem quidem velit accusamus.</p>
+                                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ipsum tenetur nobis corporis quas numquam officia aliquid error laboriosam magnam assumenda.</p>
+                            </div>
+                            <div class="col-lg-4 text-center order-lg-2">
+                                <img src="img/specials-3.jpg" alt="" class="img-fluid">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="tab-pane" id="tab-4">
+                        <div class="row">
+                            <div class="col-lg-8 details order-2 order-lg-1">
+                                <h3>Strikes de Mozarella</h3>
+                                <p class="fst-italic">Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae, maxime earum voluptatem quidem velit accusamus.</p>
+                                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ipsum tenetur nobis corporis quas numquam officia aliquid error laboriosam magnam assumenda.</p>
+                            </div>
+                            <div class="col-lg-4 text-center order-lg-2">
+                                <img src="img/specials-4.jpg" alt="" class="img-fluid">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="tab-pane" id="tab-5">
+                        <div class="row">
+                            <div class="col-lg-8 details order-2 order-lg-1">
+                                <h3>Camarones Imperiales</h3>
+                                <p class="fst-italic">Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae, maxime earum voluptatem quidem velit accusamus.</p>
+                                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ipsum tenetur nobis corporis quas numquam officia aliquid error laboriosam magnam assumenda.</p>
+                            </div>
+                            <div class="col-lg-4 text-center order-lg-2">
+                                <img src="img/specials-5.jpg" alt="" class="img-fluid">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous">
+    </script>
+    <script src="js/main.js"></script>
+    <script src="https://unpkg.com/isotope-layout@3/dist/isotope.pkgd.min.js"></script>
+</body>
+
+</html>
